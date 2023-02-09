@@ -70,6 +70,16 @@ hr{
     background-color: #212121;
     margin-bottom: 10px;
 }
+.leaders {
+    display: none;
+}
+.leaders.collapse {
+    display: none;
+}
+.leaders.collapse.show {
+    display: block;
+    
+}
 .menu-settings {
     height: 50px;
     border-radius: 100%;
@@ -97,7 +107,7 @@ hr{
 .btn-menu:hover {
     background-color: #0c00b6;
 }
-.btn-menu:active{
+.btn-menu.active{
     background-color: #0f00e2;
     color: #fff
 }
@@ -109,6 +119,7 @@ hr{
     background-color: #212121;
     justify-content: center;
     color: #fff;
+    align-items: center;
     text-align: center;
     border-bottom: 1px solid #0c007c;
     box-shadow: 0px 0px 10px #0c007c;
@@ -116,8 +127,8 @@ hr{
 .site-name {
     background-color: #212121;
 }
-.profile {
-    display: block;
+.tab-content {
+    display: none;
     position: relative;
     width: 100%;
     height: 100%;

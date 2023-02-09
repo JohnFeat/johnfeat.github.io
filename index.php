@@ -5,13 +5,11 @@
     <title>Arizona Tucson Universal</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/headerstyle.css">
-    <script src="js/event.js"></script>
     <script>
 
     </script>
 </head>
 <body>
-    <p>q</p>
     <div class="main">
         <div class="site">
             <div class="menu">
@@ -24,37 +22,20 @@
                     </div>
                     <hr>
                     <div class="btns-menu">
-                        <button class="btn-menu" onclick="openTab(event, 'profile')">Личный кабинет</button>
-                        <button class="btn-menu" onclick="openTab(event, 'gosleaders')">Лидеры гос. структур</button>
-                        <button class="btn-menu" onclick="openTab(event, 'nelleaders')">Лидеры нелегальных стркутр</button>
-                        <button class="btn-menu" onclick="openTab(event, 'deputygos')">Заместители гос. структур</button>
-                        <button class="btn-menu" onclick="openTab(event, 'deputynel')">Заместители нелегальных стркутр</button>
-                        <button class="btn-menu" onclick="openTab(event, 'users')">Пользователи</button>
-                        <button class="btn-menu" onclick="openTab(event, 'shop')">Магазин</button>
-                        <button class="btn-menu" onclick="openTab(event, 'history')">Лог действий</button>
-                        <button class="btn-menu" onclick="openTab(event, 'cmdlist')">Список команд</button>
-                        <button class="btn-menu" onclick="openTab(event, 'information')">Общая информация</button>
+                        <button class="btn-menu collapsed" type="button" data-target="#myprofile-content" data-toggle="collapse"></a>Личный кабинет</button>
+                        <button class="btn-menu collapsed">Лидеры гос. структур</button>
+                        <button class="btn-menu collapsed">Лидеры мафий/гетто</button>
+                        <button class="btn-menu collapsed">Заместители гос. структур</button>
+                        <button class="btn-menu collapsed">Заместители мафий/гетто</button>
+                        <button class="btn-menu collapsed">Пользователи</button>
+                        <button class="btn-menu collapsed">Магазин</button>
+                        <button class="btn-menu collapsed">Лог действий</button>
+                        <button class="btn-menu collapsed">Список команд</button>
+                        <button class="btn-menu collapsed">Общая информация</button>
                     </div>
             </div>
-            <div class="tab-content" id="gosleaders">
-                <div class="head-line">Лидеры государственных структур</div>
-            </div>
-            <div class="tab-content" id="nelleaders">
-                <div class="head-line">Лидеры нелегальных стркутр</div>
-            </div>
-            <div class="tab-content" id="deputygos">
-                <div class="head-line">Заместители государственных структур</div>
-            </div>
-            <div class="tab-content" id="deputynel">
-                <div class="head-line">Заместители нелегальных стркутр</div>
-            </div>
-            <div class="tab-content" id="users">
-                <div class="head-line">Пользователи</div>
-            </div>
-            <div class="tab-content" id="shop">
-                <div class="head-line">Магазин</div>
-            </div>
-            <div id="profile" class="tab-content">
+            
+            <div class="myprofile" id="myprofile-content">
                 <div class="head-line"><p>Личный кабинет</p></div>
                 <hr>
                 <div class='head-btn'>
@@ -106,9 +87,9 @@
                           <span>2023-12-12 22:03:24 Leonid_Romanov установил Leonid_Romanov уровень доступа: 10</span>
                           <span>2023-12-12 22:03:24 Leonid_Romanov установил Leonid_Romanov уровень доступа: 10</span>
                         </div>
-                        
+                        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
                         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-                    </div>
+                </div>
                 </div>
             </div>  
         </div>
