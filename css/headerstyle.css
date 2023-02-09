@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    font-family: Arial
+}
+p {
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    background-color: #212121
+}
+.main-header {
+    color: #fff;
+    Background-color: #212121;
+    position: relative;
+    height: 50px;
+    width: 100%
+}
+.header {
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 5%;
+}
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    color: #fff;
+    margin-right: 500px;
+    margin-left: 500px;
+    border: 1px solid #fff;
+    background-color: #212121;
+    border-radius: 25px;
+}
+.main-form {
+    color: #fff;
+    background-color: #212121
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #303030;
+    color: #fff;
+    border-radius: 10px;
+}
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #444444;
+        outline: none;
+        color: #fff
+    }
+
+/* Overwrite default styles of hr */
+hr {
+    border: 0px solid #f1f1f1;
+    margin-bottom: 10px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #303030;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.title-form {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.container-signin {
+    background-color: #303030;
+    border-block: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.header-line {
+    color: #fff
+}

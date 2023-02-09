@@ -1,0 +1,339 @@
+* {
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    font-family: Arial;
+    font-weight: 1000;
+    font-size: small;
+}
+p {
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    background-color: #212121;
+    
+}
+body{
+    padding:0;
+    left:0px;
+    margin:0;
+}
+hr{
+    bottom: 0px;
+}
+.site {
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    position: fixed;
+    border: 0px solid #fff;
+    height: 100%;
+    width: 100%;
+    }
+.menu {
+    background-color: #212121;
+    display: block;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border-right: 2px solid #0c007c;
+    border-left: 2px solid #0c007c;
+}
+.menu-user {
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color:rgb(17, 0, 255);
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px rgb(0, 0, 255);
+    text-decoration: none;
+}
+.menu-user span {
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: #212121;
+}
+.btn-menu {
+    color: rgb(255, 255, 255);
+    background-color: #09008b;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.logo, .img-logo {
+    display: block;
+    position: relative;
+    background-color: #212121;
+    margin-bottom: 10px;
+}
+.menu-settings {
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid #ff0000;
+    background:
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+  border-radius: 50%;
+}
+.btn-menu.collapsed:hover {
+    background-color: #3b3b3b;
+    color: #a1a1a1; 
+}
+.btn-menu.collapsed:active {
+    background-color: #616161;
+    color: #a1a1a1; 
+}
+.btn-menu:hover {
+    background-color: #0c00b6;
+}
+.btn-menu:active{
+    background-color: #0f00e2;
+    color: #fff
+}
+.head-line {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 5%;
+    background-color: #212121;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #0c007c;
+    box-shadow: 0px 0px 10px #0c007c;
+}
+.site-name {
+    background-color: #212121;
+}
+.profile {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.myprofile {
+    position: relative;
+    display: none;
+    width: 100%;
+}
+.btn-menu.collapsed {
+    color: rgb(116, 116, 116);
+    background-color: #2c2c2c;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.main-info {
+    height: 100%;
+}
+.head {
+    float: right;
+    margin: 20px;
+    display: flex;
+    position: relative;
+    height: auto;
+    border: 1px solid #0c007c;
+    border-radius: 20px;
+    padding: 20px;
+    bottom: 70px    ;
+}
+.btns-menu {
+    background-color: #212121;
+    padding: 10px;
+}
+.btns-menu button{
+    border-radius: 20px;
+}
+.head-btn {
+    margin: 10px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: left;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    content: 10px;
+}
+.user-content {
+    margin: 0;
+display: block;
+position: relative;
+height: auto;
+}
+
+.profiles-btn {
+    display: inline-flex;
+    position: relative;
+    
+}
+
+.profile-btn {
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    border: 2px solid #0c007c;
+    border-radius: 20px;
+    background-color: #2c2c2c;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px #0c007c;
+}
+.nickname {
+    color:rgb(17, 0, 255);
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0px 0px 20px rgb(0, 0, 255);
+}
+.user-status{
+    text-align: center;
+    background-color: rgb(6, 0, 94);
+    border-radius: 10px;
+    color: #fff;
+    text-shadow: 0px 0px 1px;
+    position: relative;
+    height: 15%;
+    font-size: medium;
+    border: 1px solid #0c007c;
+}
+.settings {
+    width: 50%;
+    border-radius: 100%;
+    border: 2px solid #ff0000;
+    background:
+      radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+  border-radius: 50%;
+}
+.stats{
+    background-color: #212121;
+height: 70%;
+border: 1px solid #0c007c;
+display: flex;
+border-radius: 20px;
+}
+.stats div{
+    background-color: #212121;
+margin: 20px;
+width: 100%;
+height: auto;
+border-radius: 1%;
+}
+.info {
+    margin: 20px;
+display: flow-root;
+position: relative;
+flex-wrap: wrap;
+height: 100%;
+}
+#logs.collapse.show {
+    padding: 10px;
+}
+.loginfo {
+    border-radius: 20px;
+    display: flex;
+position: relative;
+width: 100%;
+margin-top: 20px;
+margin-bottom: 20px;
+padding: 20px;
+height: auto;
+background-color: #212121;
+border: 1px solid #0c007c;
+flex-wrap: wrap;
+}
+.btn-logs{
+    width: 100%;
+    border-top: 1px solid #0c007c;
+    border-right: 1px solid #0c007c;
+    border-left: 1px solid #0c007c;
+    border-bottom: none;
+    height: 30px;
+    border-radius: 10px;
+    color: #646464;
+}
+.btn-logs.collapsed {
+    border-bottom: 1px solid #0c007c;
+}
+.collapse {
+    display: none;
+    flex-wrap: wrap;
+    margin-top: 0;
+    bottom: 10px;
+    color:#666;
+    width: 100%;
+    height: auto;
+    border: 1px solid #0c007c;
+}
+.collapsing {
+    display: none;
+}
+.collapse.show {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    color:#666;
+    width: 100%;
+    height: auto;
+    border: 1px solid #0c007c;
+}
+.collapse span {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    color:#666;
+    width: 100%;
+}
+.user-info {
+    margin: 20px;
+    color: #a1a1a1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #212121;
+    
+}
+.user-info span{
+    text-align: left;
+    height: auto;
+    width: 100%;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    color: #666;
+    border: 0px solid;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #212121;
+    
+    margin-left: 20px;
+}
+.user-content::after {
+    display: block;
+}
+.log-info {
+    margin: 20px;
+    position:relative;
+    display: flex;
+    background-color: #212121;
+}
+
